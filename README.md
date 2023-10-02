@@ -1,5 +1,5 @@
 # basex-service
-Simple golang service that converts a base10 number into a baseX number. 
+Simple golang service that returns the basex conversion from a base10 number
 
 
 ## Example Usage
@@ -12,5 +12,3 @@ curl -X POST http://localhost:1323/convert \
      -H 'Content-Type: application/json' \
      -d '{"base":19,"base10num":32}'
 ```
-
-
